@@ -11,7 +11,7 @@ setuptools.setup(
     description="Yandex image loader",
     long_description=read_me_description,
     long_description_content_type="text/markdown",
-    url="package_github_page",
+    url="https://github.com/egm108/YandexImageLoader/tree/main",
     packages=['yil'],
     classifiers=[
         "Programming Language :: Python :: 3",

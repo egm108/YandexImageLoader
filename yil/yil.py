@@ -149,7 +149,7 @@ def get_out_dir(p_out_dir: str) -> str:
 
 
 def check_fname(fname: str) -> str:
-    if os.path.isfile(fname):
+    if fname is not None and os.path.isfile(fname):
         return fname
     else:
         return None

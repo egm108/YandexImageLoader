@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "yil"
-version = "0.8"
+version = "1.2"
 description = "YandexImageLoader"
 authors = ["egm108"]
 license = "MIT"

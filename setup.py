@@ -5,7 +5,7 @@ with open("README.md") as file:
 
 setuptools.setup(
     name="yil",
-    version="0.1",
+    version="0.9",
     author="egm108",
     author_email="egm@yandex.ru",
     description="Yandex image loader",
@@ -19,4 +19,15 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.5',
+    install_requires=[
+       "beautifulsoup4>=4.11.1",
+       "requests==2.26.0",
+   ],
+    entry_points={
+    'console_scripts': [
+        'yil=yil:main',
+    ],
+},
+
+
 )

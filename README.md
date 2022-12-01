@@ -9,7 +9,7 @@ pip install yil
 # Usage
 yil [--help] [--w=<number>] [--out_dir=<output dir>] -f=<html file name> [--pb]
 
---help - print usage message,
+--help - print usage message,\n
 --w=<number> - number of workers for parallel loading, 1 by default,
 --pb -show progress bar, 
 --f=\<html file name> -html file with search results,

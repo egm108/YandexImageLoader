@@ -1,5 +1,5 @@
 # YandexImageLoader
-Loads all images found in Yandex image search html file. 
+Loads all images from Yandex image search html file. 
 To get this file open your browser, type query and scroll down to see all
 the results. Than save the page as html file.
 

@@ -9,11 +9,11 @@ pip install yil
 # Usage
 yil [--help] [--w=<number>] [--out_dir=<output dir>] -f=<html file name> [--pb]
 
---help - print usage message,\n
---w=<number> - number of workers for parallel loading, 1 by default,
---pb -show progress bar, 
---f=\<html file name> -html file with search results,
---out_dir=<dir_name> - where store images, ./downloads by default,
+--help - print usage message, <br />
+--w=<number> - number of workers for parallel loading, 1 by default, <br />
+--pb -show progress bar,  <br />
+--f=\<html file name> -html file with search results, <br />
+--out_dir=<dir_name> - where store images, ./downloads by default, <br />
 in this dir will be saved errors.txt (messages about downloading errors)
 and indexes.txt (correspondence between numeric names in out_dir and names in 
 the html file)

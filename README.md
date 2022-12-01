@@ -1,12 +1,12 @@
-#YandexImageLoader
+# YandexImageLoader
 Loads all images found in Yandex image search html file. 
 To get this file open your browser, type query and scroll down to see all
 the results. Than save the page as html file.
 
-#Installation
+# Installation
 pip install yil
 
-#Usage
+# Usage
 yil [--help] [--w=<number>] [--out_dir=<output dir>] -f=<html file name> [--pb]
 
 --help - print usage message,

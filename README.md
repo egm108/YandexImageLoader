@@ -1,7 +1,8 @@
 # YandexImageLoader
 Loads all images from Yandex image search html file. 
 To get this file open your browser, type query and scroll down to see all
-the results. Than save the page as html file.
+the results. Than save the page as html file. Loading can be done in parallel. 
+This provides significant speedup.
 
 # Installation
 pip install yil
